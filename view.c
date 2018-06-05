@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+
 void UIInitialize(UI* pUI,int gameZoneWidth,int gameZoneHeight)
 {
     pUI->snakeBlock = pUI->wallBlock = pUI->foodBlock = "█";
