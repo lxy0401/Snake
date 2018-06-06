@@ -22,6 +22,8 @@ void UIInitialize(UI* pUI,int gameZoneWidth,int gameZoneHeight)
 }
 
 
+
+
 static void _SetConsoleCursorPos(int cursorX,int cursorY)
 {
     HANDLE hHandle = GetStdHandle(STD_OUTPUT_HANDLE);
