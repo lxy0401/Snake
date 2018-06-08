@@ -22,6 +22,8 @@ void UIInitialize(UI* pUI,int gameZoneWidth,int gameZoneHeight)
 }
 
 
+
+/*
 static void _SetConsoleCursorPos(int cursorX,int cursorY)
 {
     HANDLE hHandle = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -35,7 +37,7 @@ static void _ResetCursorPos(const UI* pUI)
     int y = pUI->marginTop + (2 + pUI->gameZoneHeight) + 3;
     _SetConsoleCursorPos(x,y);
 }
-
+*/
 void UIIDisplayFoodBlockAtXY(const UI* pUI,int x,int y)
 {
     _SetConsoleCursorPos(pUI->marginLeft + (1 + x) * pUI->blockWidth,pUI->marginTop + 1 + y);
